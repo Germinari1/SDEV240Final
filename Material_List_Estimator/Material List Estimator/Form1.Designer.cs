@@ -57,7 +57,6 @@
             this.label1.Size = new System.Drawing.Size(66, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Home Name";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtHomeName
             // 
@@ -182,7 +181,6 @@
             this.label2.Size = new System.Drawing.Size(27, 13);
             this.label2.TabIndex = 0;
             this.label2.Text = "Item";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtItem
             // 

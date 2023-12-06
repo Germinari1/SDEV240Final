@@ -12,19 +12,11 @@ namespace Material_List_Estimator
 {
     public partial class Form1 : Form
     {
+        private Item _item;
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
+            _item = new Item();
         }
     }
 }
