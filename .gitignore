@@ -1,0 +1,29 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Material_List_Estimator/.vs/Material List Estimator
+/Material_List_Estimator/Material List Estimator/bin/Debug
+/Material_List_Estimator/Material List Estimator/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+/Material_List_Estimator/Material List Estimator/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/Material_List_Estimator/Material List Estimator/obj/Debug/Material List Estimator.csproj.AssemblyReference.cache
+/Material_List_Estimator/Material List Estimator/obj/Debug/Material List Estimator.csproj.CoreCompileInputs.cache
+/Material_List_Estimator/Material List Estimator/obj/Debug/Material List Estimator.csproj.FileListAbsolute.txt
+/Material_List_Estimator/Material List Estimator/obj/Debug/Material List Estimator.csproj.GenerateResource.cache
+/Material_List_Estimator/Material List Estimator/obj/Debug/Material List Estimator.exe
+/Material_List_Estimator/Material List Estimator/obj/Debug/Material List Estimator.pdb
+/Material_List_Estimator/Material List Estimator/obj/Debug/Material_List_Estimator.Form1.resources
+/Material_List_Estimator/Material List Estimator/obj/Debug/Material_List_Estimator.Properties.Resources.resources
+<<<<<<< Updated upstream
+=======
+/Material_List_Estimator/Material List Estimator/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+/Material_List_Estimator/Material List Estimator/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/Material_List_Estimator/Material List Estimator/obj/Debug/Material List Estimator.csproj.AssemblyReference.cache
+/Material_List_Estimator/Material List Estimator/Form1.cs
+/Material_List_Estimator/Material List Estimator/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+/Material_List_Estimator/Material List Estimator/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/Material_List_Estimator/Material List Estimator/obj/Debug/Material List Estimator.csproj.AssemblyReference.cache
+/.vs
+>>>>>>> Stashed changes
+/Material_List_Estimator/Material List Estimator/obj/Debug/DesignTimeResolveAssemblyReferences.cache
