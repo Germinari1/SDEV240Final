@@ -20,16 +20,17 @@ namespace Material_List_Estimator
         public Form1()
         {
             InitializeComponent();
-            
-            _item = new Item();
 
             // Set up list and datagridview
             items = new BindingList<Item>();
             //bind data source
             gridItems.DataSource = items;
 
+            //Change the text format of the last column of datagrid to currency after it has been populated
+            gridItems.Columns[gridItems.ColumnCount - 1].DefaultCellStyle.Format = "c";
+
             //[TEST]
-            Item item = new Item("wood", 5000, 3, "construction wood");
+            Item item = new Item("Struts", "Wood", "2 x 4", 3, 45.25);
             items.Add(item);
         }
 
@@ -47,15 +48,10 @@ namespace Material_List_Estimator
                 newItem.Qnt = Convert.ToInt32(txtQuantity.Text);
                 newItem.Decription = txtDescription.Text;
                 newItem.Material = txtMaterial.Text;
-                newItem.Price = Convert.ToDouble(txtPrice.Text);
+                newItem.Price = Convert.ToDouble(txtPrice.Text) + (Convert.ToDouble(txtPriceCents.Text)/100);
                 //add new item to list 
                 items.Add(newItem);
             }
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
 
         }
 
@@ -72,7 +68,7 @@ namespace Material_List_Estimator
             txtMaterial.Clear();
             txtPriceCents.Clear();
             txtItem.Clear();
-            txtHomeName.Clear();
+            txtTotalCost.Clear();
             txtQuantity.Value = txtQuantity.Minimum;
             
         }
@@ -83,6 +79,51 @@ namespace Material_List_Estimator
             if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
             {
                 e.Handled = true;
+            }
+        }
+
+        private void btnCalculate_Click(object sender, EventArgs e)
+        {
+            double total = 0.0;
+
+            for (int i = 0; i < items.Count; i++)
+            {
+                total += items[i].CalculateTotal();                
+            }
+
+            txtTotalCost.Text = total.ToString("C");
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {        
+            string[] output = new string[items.Count];
+            string[] pretty = new string[items.Count];
+
+            for (int i = 0;i < items.Count;i++) 
+            {
+                output[i] += items[i].ItemName.ToString() + ",";
+                output[i] += items[i].Material.ToString() + ",";
+                output[i] += items[i].Decription.ToString() + ",";
+                output[i] += items[i].Qnt.ToString() + ",";
+                output[i] += items[i].Price.ToString();
+            }
+
+            for (int i = 0; i < items.Count; i++)
+            {
+                pretty[i] += items[i].ItemName.ToString() + " | ";
+                pretty[i] += items[i].Material.ToString() + " | ";
+                pretty[i] += items[i].Decription.ToString() + " | ";
+                pretty[i] += items[i].Qnt.ToString() + " | ";
+                pretty[i] += items[i].Price.ToString();
+            }
+
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "Plain Text|*.txt";
+            saveFileDialog.Title = "Save Material List";
+
+            if(saveFileDialog.ShowDialog() == DialogResult.OK) 
+            {
+                System.IO.File.WriteAllLines(saveFileDialog.FileName, output);
             }
         }
     }
