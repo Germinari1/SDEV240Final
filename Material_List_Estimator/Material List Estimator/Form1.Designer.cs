@@ -83,7 +83,7 @@
             this.btnSave.Margin = new System.Windows.Forms.Padding(2);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(56, 28);
-            this.btnSave.TabIndex = 4;
+            this.btnSave.TabIndex = 7;
             this.btnSave.Text = "Save File";
             this.btnSave.UseVisualStyleBackColor = true;
             // 
@@ -98,7 +98,7 @@
             this.gridItems.RowHeadersWidth = 51;
             this.gridItems.RowTemplate.Height = 24;
             this.gridItems.Size = new System.Drawing.Size(372, 258);
-            this.gridItems.TabIndex = 5;
+            this.gridItems.TabIndex = 8;
             // 
             // label4
             // 
@@ -116,7 +116,7 @@
             this.txtQuantity.Margin = new System.Windows.Forms.Padding(2);
             this.txtQuantity.Name = "txtQuantity";
             this.txtQuantity.Size = new System.Drawing.Size(97, 20);
-            this.txtQuantity.TabIndex = 7;
+            this.txtQuantity.TabIndex = 5;
             // 
             // btnClear
             // 
@@ -125,7 +125,7 @@
             this.btnClear.Margin = new System.Windows.Forms.Padding(2);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(57, 27);
-            this.btnClear.TabIndex = 8;
+            this.btnClear.TabIndex = 9;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
             // 
@@ -136,7 +136,7 @@
             this.btnCalculate.Margin = new System.Windows.Forms.Padding(2);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(97, 27);
-            this.btnCalculate.TabIndex = 9;
+            this.btnCalculate.TabIndex = 10;
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
             // 
@@ -168,7 +168,7 @@
             this.btnAdd.Margin = new System.Windows.Forms.Padding(2);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(108, 24);
-            this.btnAdd.TabIndex = 12;
+            this.btnAdd.TabIndex = 6;
             this.btnAdd.Text = "Add to List";
             this.btnAdd.UseVisualStyleBackColor = true;
             // 
@@ -188,7 +188,7 @@
             this.txtItem.Margin = new System.Windows.Forms.Padding(2);
             this.txtItem.Name = "txtItem";
             this.txtItem.Size = new System.Drawing.Size(97, 20);
-            this.txtItem.TabIndex = 13;
+            this.txtItem.TabIndex = 2;
             // 
             // txtMaterial
             // 
@@ -196,7 +196,7 @@
             this.txtMaterial.Margin = new System.Windows.Forms.Padding(2);
             this.txtMaterial.Name = "txtMaterial";
             this.txtMaterial.Size = new System.Drawing.Size(97, 20);
-            this.txtMaterial.TabIndex = 14;
+            this.txtMaterial.TabIndex = 3;
             // 
             // txtDescription
             // 
@@ -204,7 +204,7 @@
             this.txtDescription.Margin = new System.Windows.Forms.Padding(2);
             this.txtDescription.Name = "txtDescription";
             this.txtDescription.Size = new System.Drawing.Size(97, 20);
-            this.txtDescription.TabIndex = 16;
+            this.txtDescription.TabIndex = 4;
             // 
             // label6
             // 
