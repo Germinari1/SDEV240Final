@@ -1,0 +1,30 @@
+C:\Users\55119\Desktop\SDEV240Final-main\Material_List_Estimator\Material List Estimator\bin\Debug\Material List Estimator.exe.config
+C:\Users\55119\Desktop\SDEV240Final-main\Material_List_Estimator\Material List Estimator\bin\Debug\Material List Estimator.exe
+C:\Users\55119\Desktop\SDEV240Final-main\Material_List_Estimator\Material List Estimator\bin\Debug\Material List Estimator.pdb
+C:\Users\55119\Desktop\SDEV240Final-main\Material_List_Estimator\Material List Estimator\obj\Debug\Material List Estimator.csproj.AssemblyReference.cache
+C:\Users\55119\Desktop\SDEV240Final-main\Material_List_Estimator\Material List Estimator\obj\Debug\Material_List_Estimator.Form1.resources
+C:\Users\55119\Desktop\SDEV240Final-main\Material_List_Estimator\Material List Estimator\obj\Debug\Material_List_Estimator.Properties.Resources.resources
+C:\Users\55119\Desktop\SDEV240Final-main\Material_List_Estimator\Material List Estimator\obj\Debug\Material List Estimator.csproj.GenerateResource.cache
+C:\Users\55119\Desktop\SDEV240Final-main\Material_List_Estimator\Material List Estimator\obj\Debug\Material List Estimator.csproj.CoreCompileInputs.cache
+C:\Users\55119\Desktop\SDEV240Final-main\Material_List_Estimator\Material List Estimator\obj\Debug\Material List Estimator.exe
+C:\Users\55119\Desktop\SDEV240Final-main\Material_List_Estimator\Material List Estimator\obj\Debug\Material List Estimator.pdb
+C:\Users\55119\Desktop\SDEV240Final-dev2\SDEV240Final-main\Material_List_Estimator\Material List Estimator\bin\Debug\Material List Estimator.exe.config
+C:\Users\55119\Desktop\SDEV240Final-dev2\SDEV240Final-main\Material_List_Estimator\Material List Estimator\bin\Debug\Material List Estimator.exe
+C:\Users\55119\Desktop\SDEV240Final-dev2\SDEV240Final-main\Material_List_Estimator\Material List Estimator\bin\Debug\Material List Estimator.pdb
+C:\Users\55119\Desktop\SDEV240Final-dev2\SDEV240Final-main\Material_List_Estimator\Material List Estimator\obj\Debug\Material List Estimator.csproj.AssemblyReference.cache
+C:\Users\55119\Desktop\SDEV240Final-dev2\SDEV240Final-main\Material_List_Estimator\Material List Estimator\obj\Debug\Material_List_Estimator.Form1.resources
+C:\Users\55119\Desktop\SDEV240Final-dev2\SDEV240Final-main\Material_List_Estimator\Material List Estimator\obj\Debug\Material_List_Estimator.Properties.Resources.resources
+C:\Users\55119\Desktop\SDEV240Final-dev2\SDEV240Final-main\Material_List_Estimator\Material List Estimator\obj\Debug\Material List Estimator.csproj.GenerateResource.cache
+C:\Users\55119\Desktop\SDEV240Final-dev2\SDEV240Final-main\Material_List_Estimator\Material List Estimator\obj\Debug\Material List Estimator.csproj.CoreCompileInputs.cache
+C:\Users\55119\Desktop\SDEV240Final-dev2\SDEV240Final-main\Material_List_Estimator\Material List Estimator\obj\Debug\Material List Estimator.exe
+C:\Users\55119\Desktop\SDEV240Final-dev2\SDEV240Final-main\Material_List_Estimator\Material List Estimator\obj\Debug\Material List Estimator.pdb
+D:\Lucas\ESTUDOS\Faculdade\Ivy Tech\Assignments\SDEV C#\final proj\SDEV240Final-main\SDEV240Final-main\Material_List_Estimator\Material List Estimator\bin\Debug\Material List Estimator.exe.config
+D:\Lucas\ESTUDOS\Faculdade\Ivy Tech\Assignments\SDEV C#\final proj\SDEV240Final-main\SDEV240Final-main\Material_List_Estimator\Material List Estimator\bin\Debug\Material List Estimator.exe
+D:\Lucas\ESTUDOS\Faculdade\Ivy Tech\Assignments\SDEV C#\final proj\SDEV240Final-main\SDEV240Final-main\Material_List_Estimator\Material List Estimator\bin\Debug\Material List Estimator.pdb
+D:\Lucas\ESTUDOS\Faculdade\Ivy Tech\Assignments\SDEV C#\final proj\SDEV240Final-main\SDEV240Final-main\Material_List_Estimator\Material List Estimator\obj\Debug\Material List Estimator.csproj.AssemblyReference.cache
+D:\Lucas\ESTUDOS\Faculdade\Ivy Tech\Assignments\SDEV C#\final proj\SDEV240Final-main\SDEV240Final-main\Material_List_Estimator\Material List Estimator\obj\Debug\Material_List_Estimator.Form1.resources
+D:\Lucas\ESTUDOS\Faculdade\Ivy Tech\Assignments\SDEV C#\final proj\SDEV240Final-main\SDEV240Final-main\Material_List_Estimator\Material List Estimator\obj\Debug\Material_List_Estimator.Properties.Resources.resources
+D:\Lucas\ESTUDOS\Faculdade\Ivy Tech\Assignments\SDEV C#\final proj\SDEV240Final-main\SDEV240Final-main\Material_List_Estimator\Material List Estimator\obj\Debug\Material List Estimator.csproj.GenerateResource.cache
+D:\Lucas\ESTUDOS\Faculdade\Ivy Tech\Assignments\SDEV C#\final proj\SDEV240Final-main\SDEV240Final-main\Material_List_Estimator\Material List Estimator\obj\Debug\Material List Estimator.csproj.CoreCompileInputs.cache
+D:\Lucas\ESTUDOS\Faculdade\Ivy Tech\Assignments\SDEV C#\final proj\SDEV240Final-main\SDEV240Final-main\Material_List_Estimator\Material List Estimator\obj\Debug\Material List Estimator.exe
+D:\Lucas\ESTUDOS\Faculdade\Ivy Tech\Assignments\SDEV C#\final proj\SDEV240Final-main\SDEV240Final-main\Material_List_Estimator\Material List Estimator\obj\Debug\Material List Estimator.pdb
