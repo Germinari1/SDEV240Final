@@ -12,16 +12,6 @@ namespace Material_List_Estimator
 {
     public partial class Form1 : Form
     {
-<<<<<<< Updated upstream
-        public Form1()
-        {
-            InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-=======
         //declaring item object
         private Item _item;
         //list of items
@@ -41,7 +31,11 @@ namespace Material_List_Estimator
             //[TEST]
             Item item = new Item("wood", 5000, 3, "construction wood");
             items.Add(item);
->>>>>>> Stashed changes
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
