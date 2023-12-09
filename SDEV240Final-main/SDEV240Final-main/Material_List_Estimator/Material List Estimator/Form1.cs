@@ -110,15 +110,6 @@ namespace Material_List_Estimator
                 output[i] += items[i].Price.ToString();
             }
 
-            for (int i = 0; i < items.Count; i++)
-            {
-                pretty[i] += items[i].ItemName.ToString() + " | ";
-                pretty[i] += items[i].Material.ToString() + " | ";
-                pretty[i] += items[i].Decription.ToString() + " | ";
-                pretty[i] += items[i].Qnt.ToString() + " | ";
-                pretty[i] += items[i].Price.ToString();
-            }
-
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.Filter = "Plain Text|*.txt";
             saveFileDialog.Title = "Save Material List";
