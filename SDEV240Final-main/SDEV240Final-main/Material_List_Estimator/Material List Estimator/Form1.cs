@@ -50,6 +50,10 @@ namespace Material_List_Estimator
                 //add new item to list 
                 items.Add(newItem);
             }
+            else 
+            {                
+                MessageBox.Show("You must enter an Item Name, Quantity, and Price \nbefore adding this item to the Material List.", "Error Adding Item", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
 
         }
 
