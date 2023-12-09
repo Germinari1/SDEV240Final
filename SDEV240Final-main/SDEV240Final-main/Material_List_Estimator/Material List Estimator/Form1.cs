@@ -12,8 +12,6 @@ namespace Material_List_Estimator
 {
     public partial class Form1 : Form
     {
-        //declaring item object
-        private Item _item;
         //list of items
         BindingList<Item> items;
 
@@ -30,8 +28,8 @@ namespace Material_List_Estimator
             gridItems.Columns[gridItems.ColumnCount - 1].DefaultCellStyle.Format = "c";
 
             //[TEST]
-            Item item = new Item("Struts", "Wood", "2 x 4", 3, 45.25);
-            items.Add(item);
+            //Item item = new Item("Struts", "Wood", "2 x 4", 3, 45.25);
+            //items.Add(item);
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
@@ -39,7 +37,7 @@ namespace Material_List_Estimator
             /////adds a new item to the table
 
             //check if required fields have user-generate data. If yes, add the item
-            if (txtItem.TextLength!=0 && txtPrice.TextLength!=0)
+            if (txtItem.TextLength!=0 && txtPrice.TextLength!=0 && txtPriceCents.TextLength!=0)
             {
                 //instanciate new Item
                 Item newItem = new Item();
