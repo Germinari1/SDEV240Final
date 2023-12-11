@@ -10,13 +10,13 @@ namespace Material_List_Estimator
     internal class Item
     {
         //FIELDS AND PROPERTIES
-        private string _itemName;
-        private double _price;
-        private int _qnt; //quantity of items
-        private string _description;
-        private string _material;
+        private string _itemName;     //item name
+        private double _price;        //item unit price
+        private int _qnt;             //item quantity
+        private string _description;  //freeform item description (size, shape, etc)
+        private string _material;     //primary material the item is composed of
 
-        [DisplayName("Item Name")]
+        [DisplayName("Item Name")]    //Using display attributes to rename the DataGrid display columns for each property
         public string ItemName
         {
             get { return _itemName; }

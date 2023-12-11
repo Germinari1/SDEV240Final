@@ -26,10 +26,6 @@ namespace Material_List_Estimator
 
             //Change the text format of the last column of datagrid to currency after it has been populated
             gridItems.Columns[gridItems.ColumnCount - 1].DefaultCellStyle.Format = "c";
-
-            //[TEST]
-            //Item item = new Item("Struts", "Wood", "2 x 4", 3, 45.25);
-            //items.Add(item);
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
@@ -86,21 +82,29 @@ namespace Material_List_Estimator
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
+            //Sums the total costs from each added and updates the display
+            
+            //Establish an accumulator to the total
             double total = 0.0;
 
+            //Iterate over all items and read from their internal calculation method
             for (int i = 0; i < items.Count; i++)
             {
                 total += items[i].CalculateTotal();                
             }
 
+            //Update GUI with total formatted to currency
             txtTotalCost.Text = total.ToString("C");
         }
 
         private void btnSave_Click(object sender, EventArgs e)
         {        
-            string[] output = new string[items.Count];
-            string[] pretty = new string[items.Count];
+            //Formats the file output as CSV and saves it to a user provided location
 
+            //string array to hold the lines of csv
+            string[] output = new string[items.Count];
+
+            //Iterate over all items and adds their data + comma delimiter to the string array
             for (int i = 0;i < items.Count;i++) 
             {
                 output[i] += items[i].ItemName.ToString() + ",";
@@ -110,10 +114,12 @@ namespace Material_List_Estimator
                 output[i] += items[i].Price.ToString();
             }
 
+            //Opens a save file dialog prompt with .txt format selected and title set
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.Filter = "Plain Text|*.txt";
             saveFileDialog.Title = "Save Material List";
 
+            //If the user clicks OK, write all lines of the string array to the provided file location
             if(saveFileDialog.ShowDialog() == DialogResult.OK) 
             {
                 System.IO.File.WriteAllLines(saveFileDialog.FileName, output);
